@@ -184,3 +184,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .wrapper {
+    @apply grid grid-cols-[1fr_min(1440px,_100%)_1fr]
+  }
+
+  .wrapper > * {
+    @apply col-start-2;
+  }
+
+  .full-bleed {
+    @apply col-span-full
+  }
+}

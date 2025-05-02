@@ -1,9 +1,16 @@
+import HeroSection from "@components/hero-section";
+import SolarFactSection from "@components/solar-facts-section";
+import SolarNeedSection from "@components/solar-need-section";
+import VendorsSection from "@/components/vendors-section";
+
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>Welcome to the home page!</p>
-    </div>
+    <main className="wrapper space-y-10">
+      <HeroSection />
+      <SolarFactSection />
+      <SolarNeedSection />
+      <VendorsSection />
+    </main>
   );
 }
 
