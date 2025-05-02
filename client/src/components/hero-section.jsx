@@ -11,7 +11,7 @@ function HeroSection() {
           Find the <span className="text-primary-500">Right Solar</span>{" "}
           Solution Today
         </h1>
-        <p className="text-neutral-900">
+        <p className="text-neutral-900 text-xl">
           Discover the perfect solar energy solution for your home or business
         </p>
         <div className="flex gap-2">

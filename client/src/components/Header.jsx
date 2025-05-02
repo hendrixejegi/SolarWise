@@ -47,7 +47,7 @@ function Header() {
                       <span
                         className={`font-semibold p-2 ${
                           isActive
-                            ? "text-primary-500 border-b-2 border-b-primary-500"
+                            ? "text-primary-500 border-b-2 border-b-primary-500 bg-white"
                             : "text-neutral-900"
                         }`}
                       >
