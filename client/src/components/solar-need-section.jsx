@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 
-function SolarNeedSection() {
+export function SolarNeedSection() {
   return (
     <section className="p-4 grid grid-cols-2">
       <div className="space-y-4">
@@ -12,7 +12,7 @@ function SolarNeedSection() {
           </span>
         </div>
         <h2 className="text-5xl font-bold">Discover Your Solar Needs</h2>
-        <p className="text-neutral-900">
+        <p className="text-neutral-900 text-xl">
           Our advanced assessment tool analyzes your location, energy usage, and
           property details to provide personalized solar recommendations. Get
           started in just a few minutes.
@@ -25,7 +25,7 @@ function SolarNeedSection() {
             })} bg-success-700 hover:bg-success-800`}
           >
             Start Assessment
-            <ArrowRight className="aspect-square w-4" />
+            <ArrowRight className="aspect-square w-6" />
           </Link>
           <Link
             to="learn-more"
@@ -60,5 +60,3 @@ function SolarNeedSection() {
     </section>
   );
 }
-
-export default SolarNeedSection;

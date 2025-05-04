@@ -65,7 +65,7 @@ const factCards = [
   },
 ];
 
-function SolarFactSection() {
+export function SolarFactSection() {
   return (
     <section className="full-bleed wrapper bg-primary-500">
       <div className="px-4 py-8 space-y-8">
@@ -110,5 +110,3 @@ function SolarFactSection() {
     </section>
   );
 }
-
-export default SolarFactSection;

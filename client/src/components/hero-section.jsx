@@ -3,7 +3,7 @@ import { buttonVariants } from "@/components/ui/button";
 
 import heroImg from "@assets/images/hero.jpg";
 
-function HeroSection() {
+export function HeroSection() {
   return (
     <section className="flex items-center justify-between p-4">
       <div className="flex flex-col gap-4">
@@ -11,7 +11,7 @@ function HeroSection() {
           Find the <span className="text-primary-500">Right Solar</span>{" "}
           Solution Today
         </h1>
-        <p className="text-neutral-900">
+        <p className="text-neutral-900 text-xl">
           Discover the perfect solar energy solution for your home or business
         </p>
         <div className="flex gap-2">
@@ -37,5 +37,3 @@ function HeroSection() {
     </section>
   );
 }
-
-export default HeroSection;

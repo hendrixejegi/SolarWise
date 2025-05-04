@@ -36,7 +36,7 @@ const renderFooterNav = () =>
 
 function Footer() {
   return (
-    <footer className="wrapper bg-primary-500 rounded-t-4xl mt-10">
+    <footer className="wrapper bg-primary-500 rounded-t-4xl">
       <div className="px-4 py-8 flex justify-between w-full">
         <div className="space-y-2 text-white">
           <img src={logo} alt="Solarwise company logo" />
