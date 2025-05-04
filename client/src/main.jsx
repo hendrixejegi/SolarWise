@@ -5,12 +5,15 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "@pages/Home.jsx";
+import AboutUs from "@pages/about-us";
 
 const router = createBrowserRouter([
   {
-    path: "/",
     Component: App,
-    children: [{ index: true, Component: Home }],
+    children: [
+      { index: true, Component: Home },
+      { path: "about-us", Component: AboutUs },
+    ],
   },
 ]);
 
