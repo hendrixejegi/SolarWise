@@ -3,7 +3,7 @@ import { buttonVariants } from "@/components/ui/button";
 
 import heroImg from "@assets/images/hero.jpg";
 
-function HeroSection() {
+export function HeroSection() {
   return (
     <section className="flex items-center justify-between p-4">
       <div className="flex flex-col gap-4">
@@ -37,5 +37,3 @@ function HeroSection() {
     </section>
   );
 }
-
-export default HeroSection;

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 
-function SolarNeedSection() {
+export function SolarNeedSection() {
   return (
     <section className="p-4 grid grid-cols-2">
       <div className="space-y-4">
@@ -60,5 +60,3 @@ function SolarNeedSection() {
     </section>
   );
 }
-
-export default SolarNeedSection;

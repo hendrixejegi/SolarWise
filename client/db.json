@@ -1,0 +1,89 @@
+{
+  "vendors": [
+  {
+    "id": 1,
+    "name": "SolarTech Solutions",
+    "image": "/src/assets/images/bird/7.jpg",
+    "rating": 4.8,
+    "reviewCount": 124,
+    "location": {
+      "city": "Lagos",
+      "region": "Nigeria"
+    },
+    "services": ["Installation", "Maintenance", "Consultation"],
+    "description":
+      "Professional solar installation and maintenance services with 10+ years of experience.",
+    "verified": true,
+    "responseRate": 98,
+    "responseTime": "within 2 hours"
+  },
+  {
+    "id": 2,
+    "name": "EcoSolar Systems",
+    "image": "/src/assets/images/bird/7.jpg",
+    "rating": 4.6,
+    "reviewCount": 89,
+    "location": {
+      "city": "Accra",
+      "region": "Ghana"
+    },
+    "services": ["Installation", "System Design", "Equipment Sales"],
+    "description":
+      "Comprehensive solar solutions for residential and commercial properties.",
+    "verified": true,
+    "responseRate": 95,
+    "responseTime": "within 3 hours"
+  },
+  {
+    "id": 3,
+    "name": "SunPower Experts",
+    "image": "/src/assets/images/bird/7.jpg",
+    "rating": 4.9,
+    "reviewCount": 156,
+    "location": {
+      "city": "Nairobi",
+      "region": "Kenya"
+    },
+    "services": ["Installation", "Maintenance", "Repairs"],
+    "description":
+      "High-quality solar panel installation and repair services at competitive prices.",
+    "verified": true,
+    "responseRate": 99,
+    "responseTime": "within 1 hour"
+  },
+  {
+    "id": 4,
+    "name": "GreenEnergy Solutions",
+    "image": "/src/assets/images/bird/7.jpg",
+    "rating": 4.5,
+    "reviewCount": 72,
+    "location": {
+      "city": "Abuja",
+      "region": "Nigeria"
+    },
+    "services": ["Consultation", "System Design", "Equipment Sales"],
+    "description":
+      "Expert consultation and custom solar system design for optimal energy efficiency.",
+    "verified": false,
+    "responseRate": 90,
+    "responseTime": "within 5 hours"
+  },
+  {
+    "id": 5,
+    "name": "SolarLife Installations",
+    "image": "/src/assets/images/bird/7.jpg",
+    "rating": 4.7,
+    "reviewCount": 103,
+    "location": {
+      "city": "Kumasi",
+      "region": "Ghana"
+    },
+    "services": ["Installation", "Maintenance", "Equipment Sales"],
+    "description":
+      "Complete solar installation services with quality equipment and ongoing support.",
+    "verified": true,
+    "responseRate": 97,
+    "responseTime": "within 2 hours"
+  }
+]
+}

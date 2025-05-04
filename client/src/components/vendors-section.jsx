@@ -3,9 +3,9 @@ import { Card, CardContent } from "./ui/card";
 
 import sampleLogo from "@assets/images/bird/7.jpg";
 
-function VendorsSection() {
+export function VendorsSection() {
   return (
-    <section className="p-4 space-y-8">
+    <section className="p-4 space-y-8 mb-10">
       <h2 className="text-3xl font-bold">Our Vendors</h2>
       <div>
         <Carousel>
@@ -30,5 +30,3 @@ function VendorsSection() {
     </section>
   );
 }
-
-export default VendorsSection;

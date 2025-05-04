@@ -197,4 +197,8 @@
   .full-bleed {
     @apply col-span-full
   }
+
+  .icon {
+    @apply h-4 w-4
+  }
 }
