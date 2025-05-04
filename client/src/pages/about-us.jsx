@@ -1,10 +1,7 @@
-import heroImg from "@assets/images/about-us.jpg";
-
-console.log(heroImg);
-
 function AboutUs() {
   return (
     <main className="wrapper space-y-4">
+      {/* Hero section */}
       <section
         className={`full-bleed wrapper bg-[url('/src/assets/images/about-us.jpg')] bg-no-repeat bg-cover bg-center relative`}
       >
@@ -16,6 +13,7 @@ function AboutUs() {
         </div>
       </section>
 
+      {/* Details section */}
       <section>
         <div className="p-4 max-w-3xl mx-auto">
           <p className="text-lg mb-6">

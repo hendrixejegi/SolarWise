@@ -85,5 +85,142 @@
     "responseRate": 97,
     "responseTime": "within 2 hours"
   }
+],
+"facts-content": [
+  {
+    "id": "how-solar-panels-work",
+    "title": "How Do Solar Panels Work?",
+    "image": {
+      "src": "/src/assets/images/solar-facts/how-solar-works/how-solar-works.jpg",
+      "alt": "Illustration showing solar panels converting sunlight into electricity for buildings. Artwork by vectorjuice on Freepik"
+    },
+    "description": "Turning sunlight into electricity through photovoltaic cells",
+    "sections": [
+      {
+        "heading": "The Science Behind Solar Panels",
+        "content": "Solar panels work by allowing photons, or particles of light, to knock electrons free from atoms, generating a flow of electricity. Solar panels are comprised of many smaller units called photovoltaic cells, which convert sunlight into electricity."
+      },
+      {
+        "heading": "The Photovoltaic Process",
+        "content": "Each photovoltaic cell is basically a sandwich made up of two slices of semi-conducting material, usually silicon. To work, photovoltaic cells need to establish an electric field, similar to a magnetic field, which occurs when opposite poles are separated."
+      },
+      {
+        "heading": "From Panels to Power",
+        "content": "When the photovoltaic cell is exposed to sunlight, the energy from the sun knocks electrons loose, allowing them to flow freely. The electric field in the cell forces these free electrons to flow in a certain direction, creating a current. This current, together with the cell's voltage (which is a result of its built-in electric field), defines the power (or wattage) that the solar cell can produce."
+      },
+      {
+        "heading": "The Complete System",
+        "content": "From there, metal conductive plates on the sides of the cell collect the electrons and transfer them to wires. At that point, the electrons can flow like any other source of electricity. Inverters then convert the electricity from DC (direct current) to AC (alternating current), which is used to power buildings."
+      }
+    ]
+  },
+  {
+    "id": "solar-panel-lifespan",
+    "title": "Solar Panel Lifespan",
+    "image": {
+      "src": "/src/assets/images/solar-facts/solar-lifespan/solar-lifespan.jpg",
+      "alt": "Illustration showing people maintaining machinery, representing the long lifespan and maintenance of solar energy systems. Artwork by vectorjuice / Freepik"
+    },
+    "description": "Modern solar panels can last 25+ years with proper maintenance",
+    "sections": [
+      {
+        "heading": "Durability of Modern Solar Panels",
+        "content": "Most solar panels on the market today have a lifespan of 25-30 years. However, this doesn't mean they stop producing electricity after that period – it just means their energy production declines by what manufacturers consider a significant amount, typically 20% or more below their rated output."
+      },
+      {
+        "heading": "Degradation Rate",
+        "content": "Solar panels degrade at a rate of about 0.5% to 1% per year, depending on the quality of the panel and environmental conditions. Premium panels may degrade even slower, at rates of 0.3% per year or less."
+      },
+      {
+        "heading": "Extending Solar Panel Life",
+        "content": "Regular maintenance can help extend the life of your solar panels. This includes cleaning them a few times a year to remove dirt, leaves, and other debris that might block sunlight. Also, annual inspections by a professional can identify and fix any issues before they become major problems."
+      },
+      {
+        "heading": "End-of-Life Options",
+        "content": "When solar panels do reach the end of their useful life, they can be recycled. The glass, aluminum frame, and junction box are all fully recyclable, while the silicon solar cells can be reprocessed into new silicon wafers for future panels."
+      }
+    ]
+  },
+  {
+    "id": "energy-independence",
+    "title": "Energy Independence",
+    "image": {
+      "src": "/src/assets/images/solar-facts/energy-independence/energy-independence.jpg",
+      "alt": "Illustration of Balanced scale showing renewable energy outweighing fossil fuel industry, symbolizing energy independence"
+    },
+    "description": "Reduce reliance on the grid and save on energy costs",
+    "sections": [
+      {
+        "heading": "Breaking Free from the Grid",
+        "content": "Solar energy offers homeowners and businesses the opportunity to reduce their dependence on utility companies and fossil fuels. By generating your own electricity, you can significantly reduce your monthly energy bills and protect yourself from rising energy costs."
+      },
+      {
+        "heading": "Battery Storage Solutions",
+        "content": "When paired with battery storage systems, solar panels can provide electricity even when the sun isn't shining. This allows for true energy independence, as excess energy generated during sunny days can be stored and used during nighttime or cloudy days."
+      },
+      {
+        "heading": "Net Metering Benefits",
+        "content": "Many areas offer net metering programs, which allow solar panel owners to sell excess electricity back to the grid. This creates a two-way relationship with the utility company, where you can draw from the grid when needed and contribute to it when you're producing more than you use."
+      },
+      {
+        "heading": "Financial Freedom",
+        "content": "The average American household spends over $1,400 annually on electricity. Solar panels can eliminate or significantly reduce this expense, freeing up money for other priorities. With the rising costs of traditional energy sources, the savings from solar power will likely increase over time."
+      }
+    ]
+  },
+  {
+    "id": "environmental-impact",
+    "title": "Environmental Impact",
+    "image": {
+      "src": "/src/assets/images/solar-facts/environmental-impact/environmental-impact.jpg",
+      "alt": "Person using solar-powered charging station, highlighting the environmental benefits of clean, renewable solar energy in urban areas. Artwork by vectorjuice on Freepik"
+    },
+    "description": "Solar energy reduces carbon footprint and promotes sustainability",
+    "sections": [
+      {
+        "heading": "Reducing Carbon Emissions",
+        "content": "Solar energy is one of the cleanest and most abundant renewable energy sources available. The average residential solar panel system can reduce carbon emissions by 3-4 tons annually, equivalent to planting over 100 trees each year."
+      },
+      {
+        "heading": "Water Conservation",
+        "content": "Unlike traditional electricity production, solar power generation requires virtually no water to operate. This is a significant advantage, as thermoelectric power plants (which include coal, natural gas, and nuclear) require massive amounts of water for cooling."
+      },
+      {
+        "heading": "Land Use Efficiency",
+        "content": "Rooftop solar systems utilize existing structures, requiring no additional land use. Even ground-mounted solar farms use less land per unit of electricity than coal power plants when you include the land used for mining."
+      },
+      {
+        "heading": "Lifecycle Assessment",
+        "content": "While manufacturing solar panels does require energy and resources, the environmental impact is minimal compared to the benefits. Most solar panels pay back their energy \"debt\" (the energy used to manufacture them) within 1-4 years, while their lifespan extends to 25-30 years."
+      }
+    ]
+  },
+  {
+    "id": "solar-investment-returns",
+    "title": "Solar Investment Returns",
+    "image": {
+      "src": "/src/assets/images/solar-facts/solar-investment-returns/solar-investment-returns.jpg",
+      "alt": "Illustration with people working alongside a rising financial graph, dollar signs, and a rocket, conveying the concept of strong investment returns in the solar energy sector. Artwork by vectorjuice on Freepik"
+    },
+    "description": "Calculate your ROI and long-term savings with solar",
+    "sections": [
+      {
+        "heading": "Understanding Solar ROI",
+        "content": "Return on investment (ROI) for solar panels typically ranges from 10% to 30%, depending on your location, local electricity rates, available incentives, and system size. This makes solar not just an environmental choice, but a smart financial decision as well."
+      },
+      {
+        "heading": "Payback Period",
+        "content": "The average payback period for a residential solar system in the United States is between 7-12 years. After this point, the electricity generated is essentially free, aside from minimal maintenance costs."
+      },
+      {
+        "heading": "Tax Incentives and Rebates",
+        "content": "The federal solar investment tax credit (ITC) allows you to deduct 30% of the cost of installing a solar energy system from your federal taxes. Many states and local utilities offer additional incentives, further improving your ROI."
+      },
+      {
+        "heading": "Property Value Increase",
+        "content": "Homes with solar panel systems sell for 4.1% more on average than comparable homes without solar. For a median-valued home, this translates to an additional $9,274 in resale value. Unlike many home renovations that depreciate over time, solar panels can actually increase in value as electricity prices rise."
+      }
+    ]
+  }
 ]
 }
