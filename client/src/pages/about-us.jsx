@@ -16,7 +16,7 @@ function AboutUs() {
       {/* Details section */}
       <section>
         <div className="p-4 max-w-3xl mx-auto">
-          <p className="text-lg mb-6">
+          <p className="mb-6">
             SolarWise was founded on the belief that access to clean, reliable
             energy is a fundamental human right. In many parts of Africa due to
             infrastructure limitations, extreme power outages, and the cost of

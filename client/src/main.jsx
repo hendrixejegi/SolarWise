@@ -9,6 +9,7 @@ import Home from "./pages/home";
 import AboutUs from "./pages/about-us";
 import Marketplace from "./pages/marketplace";
 import SolarFact from "./pages/solar-fact";
+import Assessment from "./pages/assessment";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
         path: "solar-facts/:factId",
         loader: async () => ({ facts: await loadSolarFacts() }),
         Component: SolarFact,
+      },
+      {
+        path: "assessment",
+        Component: Assessment,
       },
       {
         path: "marketplace",
