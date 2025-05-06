@@ -1,4 +1,5 @@
 import { useLoaderData, Link } from "react-router-dom";
+import data from "../../db.json";
 
 import {
   Card,
@@ -17,7 +18,8 @@ import {
 import { buttonVariants } from "./ui/button";
 
 export function SolarFactSection() {
-  const { facts } = useLoaderData();
+  var { facts } = useLoaderData();
+  facts = facts || data["facts-content"];
 
   return (
     <section className="full-bleed wrapper bg-primary-500">

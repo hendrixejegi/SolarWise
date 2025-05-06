@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import data from "../../db.json";
 
 import { MarketplaceHeader } from "@components/marketplace/marketplace-header";
 import { MarketplaceFilters } from "@components/marketplace/marketplace-filters";
 import { VendorListings } from "@components/marketplace/vendor-listings";
 
 function Marketplace() {
-  const { vendors } = useLoaderData();
+  var { vendors } = useLoaderData();
+  vendors = vendors || data["vendors"];
 
   const [filterObj, setFilterObj] = useState({ sq: "", filters: null });
 
