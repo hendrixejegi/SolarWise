@@ -3,7 +3,7 @@
   {
     "id": 1,
     "name": "SolarTech Solutions",
-    "image": "/src/assets/images/bird/7.jpg",
+    "image": "https://img.freepik.com/free-vector/man-holding-hands-flash-logo-negative-space-style_126523-783.jpg?t=st=1746569669~exp=1746573269~hmac=412db2315d658f9e6f603b61540e46403bf976e5fc5245f791ac7a6e515ed544&w=1380",
     "rating": 4.8,
     "reviewCount": 124,
     "location": {
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "EcoSolar Systems",
-    "image": "/src/assets/images/bird/7.jpg",
+    "image": "https://img.freepik.com/free-vector/man-holding-hands-flash-logo-negative-space-style_126523-783.jpg?t=st=1746569669~exp=1746573269~hmac=412db2315d658f9e6f603b61540e46403bf976e5fc5245f791ac7a6e515ed544&w=1380",
     "rating": 4.6,
     "reviewCount": 89,
     "location": {
@@ -37,7 +37,7 @@
   {
     "id": 3,
     "name": "SunPower Experts",
-    "image": "/src/assets/images/bird/7.jpg",
+    "image": "https://img.freepik.com/free-vector/man-holding-hands-flash-logo-negative-space-style_126523-783.jpg?t=st=1746569669~exp=1746573269~hmac=412db2315d658f9e6f603b61540e46403bf976e5fc5245f791ac7a6e515ed544&w=1380",
     "rating": 4.9,
     "reviewCount": 156,
     "location": {
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "name": "GreenEnergy Solutions",
-    "image": "/src/assets/images/bird/7.jpg",
+    "image": "https://img.freepik.com/free-vector/man-holding-hands-flash-logo-negative-space-style_126523-783.jpg?t=st=1746569669~exp=1746573269~hmac=412db2315d658f9e6f603b61540e46403bf976e5fc5245f791ac7a6e515ed544&w=1380",
     "rating": 4.5,
     "reviewCount": 72,
     "location": {
@@ -71,7 +71,7 @@
   {
     "id": 5,
     "name": "SolarLife Installations",
-    "image": "/src/assets/images/bird/7.jpg",
+    "image": "https://img.freepik.com/free-vector/man-holding-hands-flash-logo-negative-space-style_126523-783.jpg?t=st=1746569669~exp=1746573269~hmac=412db2315d658f9e6f603b61540e46403bf976e5fc5245f791ac7a6e515ed544&w=1380",
     "rating": 4.7,
     "reviewCount": 103,
     "location": {
@@ -91,7 +91,7 @@
     "id": "how-solar-panels-work",
     "title": "How Do Solar Panels Work?",
     "image": {
-      "src": "/src/assets/images/solar-facts/how-solar-works/how-solar-works.jpg",
+      "src": "https://img.freepik.com/free-vector/businessmen-use-solar-energy-panels-produce-electricity-city_335657-3225.jpg?t=st=1746568440~exp=1746572040~hmac=1038f9f90701b79bebf9225726c242d14ddf7033619da8dbcf01b1278bff0eb6&w=1380",
       "alt": "Illustration showing solar panels converting sunlight into electricity for buildings. Artwork by vectorjuice on Freepik"
     },
     "description": "Turning sunlight into electricity through photovoltaic cells",
@@ -118,7 +118,7 @@
     "id": "solar-panel-lifespan",
     "title": "Solar Panel Lifespan",
     "image": {
-      "src": "/src/assets/images/solar-facts/solar-lifespan/solar-lifespan.jpg",
+      "src": "https://img.freepik.com/free-vector/humans-cobot-robotic-arm-collaborate-laptop-fixing-gears-collaborative-robotics-cobot-automatization-safe-industry-solutions-concept_335657-1899.jpg?ga=GA1.1.884322036.1746188795&w=740",
       "alt": "Illustration showing people maintaining machinery, representing the long lifespan and maintenance of solar energy systems. Artwork by vectorjuice / Freepik"
     },
     "description": "Modern solar panels can last 25+ years with proper maintenance",
@@ -145,7 +145,7 @@
     "id": "energy-independence",
     "title": "Energy Independence",
     "image": {
-      "src": "/src/assets/images/solar-facts/energy-independence/energy-independence.jpg",
+      "src": "https://img.freepik.com/free-vector/engineer-choosing-power-station-with-solar-panels-wind-turbines_335657-3213.jpg?ga=GA1.1.884322036.1746188795&semt=ais_hybrid&w=740",
       "alt": "Illustration of Balanced scale showing renewable energy outweighing fossil fuel industry, symbolizing energy independence"
     },
     "description": "Reduce reliance on the grid and save on energy costs",
@@ -172,7 +172,7 @@
     "id": "environmental-impact",
     "title": "Environmental Impact",
     "image": {
-      "src": "/src/assets/images/solar-facts/environmental-impact/environmental-impact.jpg",
+      "src": "https://img.freepik.com/free-vector/man-charges-smartphone-from-solar-recharge-station-ecological-renewable-charging-systems-smart-bus-stops-iot-smart-city-concept-vector-illustration_335657-2002.jpg?t=st=1746568609~exp=1746572209~hmac=73569fdd73c36442d07fbc832e8c1d08a7b979b26d394681ef448b87fb8ef60a&w=1380",
       "alt": "Person using solar-powered charging station, highlighting the environmental benefits of clean, renewable solar energy in urban areas. Artwork by vectorjuice on Freepik"
     },
     "description": "Solar energy reduces carbon footprint and promotes sustainability",
@@ -199,7 +199,7 @@
     "id": "solar-investment-returns",
     "title": "Solar Investment Returns",
     "image": {
-      "src": "/src/assets/images/solar-facts/solar-investment-returns/solar-investment-returns.jpg",
+      "src": "https://img.freepik.com/free-vector/business-people-gears-with-laptops-working-lightbulb-business-trend-analysis-choosing-business-direction-concept-white-background_335657-1756.jpg?ga=GA1.1.884322036.1746188795&semt=ais_hybrid&w=740",
       "alt": "Illustration with people working alongside a rising financial graph, dollar signs, and a rocket, conveying the concept of strong investment returns in the solar energy sector. Artwork by vectorjuice on Freepik"
     },
     "description": "Calculate your ROI and long-term savings with solar",

@@ -36,8 +36,9 @@ function Header() {
             {[
               { path: "/", label: "Home" },
               { path: "/marketplace", label: "Marketplace" },
-              { path: "/products", label: "Products" },
-              { path: "/solar-hub", label: "Solar Hub" },
+              { path: "/assessment", label: "Assessment" },
+              // { path: "/products", label: "Products" },
+              // { path: "/solar-hub", label: "Solar Hub" },
               { path: "/about-us", label: "About Us" },
             ].map((item) => (
               <NavigationMenuItem key={item.path}>
@@ -61,7 +62,7 @@ function Header() {
           </NavigationMenuList>
         </NavigationMenu>
         {/* Authentication Buttons */}
-        <div className="flex gap-2 ml-auto">
+        {/* <div className="flex gap-2 ml-auto">
           <Link to="/login" className={buttonVariants({ variant: "ghost" })}>
             Log in
           </Link>
@@ -71,7 +72,7 @@ function Header() {
           >
             Sign up
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
