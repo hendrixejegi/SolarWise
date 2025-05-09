@@ -20,3 +20,15 @@ export async function loadSolarFacts() {
     .catch((error) => console.log(error));
   return d;
 }
+
+/*
+export async function loadFactData({ params }) {
+  const { factId } = params;
+  let d = null;
+  await axios
+    .get(`facts-content/${factId}`)
+    .then((r) => (d = r.data))
+    .catch((error) => console.log(error));
+  return d;
+}
+*/

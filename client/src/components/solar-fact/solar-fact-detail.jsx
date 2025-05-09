@@ -1,5 +1,4 @@
 import { ExploreMore } from "./explore-more-facts";
-console.log();
 
 export function SolarFactDetail(props) {
   return (

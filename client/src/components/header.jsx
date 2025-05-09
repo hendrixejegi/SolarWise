@@ -38,7 +38,7 @@ function Header() {
               { path: "/marketplace", label: "Marketplace" },
               { path: "/assessment", label: "Assessment" },
               // { path: "/products", label: "Products" },
-              // { path: "/solar-hub", label: "Solar Hub" },
+              { path: "/solar-hub", label: "Solar Hub" },
               { path: "/about-us", label: "About Us" },
             ].map((item) => (
               <NavigationMenuItem key={item.path}>
