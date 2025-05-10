@@ -9,7 +9,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "./ui/navigation-menu";
-import { buttonVariants, Button } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +37,7 @@ function Header() {
               { path: "/", label: "Home" },
               { path: "/marketplace", label: "Marketplace" },
               { path: "/assessment", label: "Assessment" },
-              // { path: "/products", label: "Products" },
+              { path: "/products", label: "Products" },
               { path: "/solar-hub", label: "Solar Hub" },
               { path: "/about-us", label: "About Us" },
             ].map((item) => (
@@ -63,9 +63,9 @@ function Header() {
         </NavigationMenu>
         {/* Authentication Buttons */}
         <div className="flex gap-2 ml-auto">
-          <Button disabled="true" to="/login" variant="ghost">
+          <Link to="/login" className={buttonVariants({ variant: "ghost" })}>
             Log in
-          </Button>
+          </Link>
           <Link
             to="/register"
             className={buttonVariants({ variant: "secondary" })}

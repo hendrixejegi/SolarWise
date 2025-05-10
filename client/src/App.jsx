@@ -8,7 +8,7 @@ function App() {
   const pathName = useLocation().pathname;
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       {pathName === "/register" ? (
         <div className="wrapper">
           <div className="my-6 max-w-3xl mx-auto w-full">
@@ -23,7 +23,7 @@ function App() {
       )}
       <Outlet />
       {pathName === "/register" ? "" : <Footer />}
-    </>
+    </div>
   );
 }
 

@@ -6,7 +6,6 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
@@ -123,22 +122,22 @@ export function VendorListings(props) {
                     </div>
                   </div>
                   <div className="flex flex-col gap-2">
-                    <Button
-                      variant="secondary"
-                      className={`bg-primary-500`}
-                      disabled="true"
+                    <Link
+                      className={`${buttonVariants({
+                        variant: "secondary",
+                      })} bg-primary-500`}
                     >
                       View Profile
-                    </Button>
-                    <Button
-                      variant="secondary"
-                      disabled="true"
+                    </Link>
+                    <Link
                       className={`${cn(
-                        `text-black bg-white hover:bg-neutral-100`
+                        `${buttonVariants({
+                          variant: "secondary",
+                        })} text-black bg-white hover:bg-neutral-100`
                       )}`}
                     >
                       Contact
-                    </Button>
+                    </Link>
                   </div>
                 </div>
               </div>

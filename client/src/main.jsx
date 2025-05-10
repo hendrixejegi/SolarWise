@@ -12,6 +12,7 @@ import SolarFact from "./pages/solar-fact";
 import Assessment from "./pages/assessment";
 import RegisterPage from "./pages/register";
 import SolarHubPage from "./pages/solar-hub-page";
+import NotFoundPage from "./pages/not-found";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
       { path: "about-us", Component: AboutUs },
       { path: "register", Component: RegisterPage },
       { path: "solar-hub", Component: SolarHubPage },
+      { path: "*", Component: NotFoundPage },
     ],
   },
 ]);
